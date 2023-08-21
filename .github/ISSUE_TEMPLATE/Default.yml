@@ -1,0 +1,23 @@
+name: Task
+description: Task
+title: "[TASK]: "
+labels: ["todo"]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      value: |
+        **As a** [role]  
+        **I need** [function]  
+        **So that** [benefit]  
+              
+        ### Details and Assumptions
+            * [...]      
+
+        ### Acceptance Criteria     
+            Given [some context]
+            When [certain action is taken]
+            Then [the outcome of action is observed]
+    validations:
+      required: true
+
